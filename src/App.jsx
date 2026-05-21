@@ -11,6 +11,7 @@ function Header() {
     <header className="header">
       <NavLink className="brand" to="/"><img src="/uvmark-logo.png" alt="UVMARK logo" /></NavLink>
       <nav className="nav">
+        <NavLink to="/">HOME</NavLink>，
         <NavLink to="/about">ABOUT UVMARK</NavLink>
         <NavLink to="/products">PRODUCTS & SERVICES</NavLink>
         <NavLink to="/case-studies">CASE STUDIES</NavLink>
