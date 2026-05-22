@@ -37,10 +37,7 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="home-hero-visual">
-          <img src="/home-hero-lab.png" alt="Future laboratory workflow" />
-        </div>
-      </section>
+             </section>
 
       <section className="home-section">
         <h2>Why UVMARK?</h2>
