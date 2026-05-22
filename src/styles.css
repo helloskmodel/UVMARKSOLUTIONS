@@ -1,0 +1,67 @@
+
+:root {
+  --text-main: #111827;
+  --text-soft: #6b7280;
+  --line: #e5e7eb;
+  --bg-soft: #f7f9fc;
+  --brand: #0077e6;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  color: var(--text-main);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 56px;
+  background: rgba(255,255,255,0.95);
+  border-bottom: 1px solid var(--line);
+}
+
+.brand-logo {
+  width: 150px;
+}
+
+.nav-panel {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--text-main);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.page-section {
+  padding: 100px 56px;
+}
+
+.light-section {
+  background: var(--bg-soft);
+}
+
+.hero-block {
+  max-width: 980px;
+}
+
+.hero-eyebrow,
+.hero-subtitle {
+  color: var(--text-soft);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.hero-title {
+  font-size: 52px;
+  line-height: 1.08;
+  margin: 18px 0;
+  max-width: 880px;
+}
