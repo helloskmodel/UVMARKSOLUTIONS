@@ -58,7 +58,19 @@ export default function Home() {
           <div className="focus-item">Pre-Labelling Labware</div>
         </div>
       </section>
+<section className="cta-section">
+  <h2>Let’s Get Labelling.</h2>
 
+  <p>
+    Contact our team to discuss laboratory identification,
+    workflow coordination, and application-focused solutions
+    for biopharmaceutical and clinical environments.
+  </p>
+
+  <a className="cta-button" href="/contact">
+    Contact Us
+  </a>
+</section>
     </main>
   );
 }
