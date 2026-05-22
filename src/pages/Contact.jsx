@@ -1,3 +1,0 @@
-import React from "react";
-import { ArrowRight } from "lucide-react";
-export default function Contact(){return <section className="contact contactPage"><div className="contactCard"><p className="eyebrow">CONTACT</p><h2>Ready to Support Your Workflow</h2><p>Tell us about your application, environment, container, printing method, or labeling challenge.</p><a className="primaryButton" href="tel:18326471898">Contact UVMARK <ArrowRight size={18}/></a></div><footer className="footer"><strong>UVMARK Inc.</strong><span>3027 OLD MASTERS DR, SUGAR LAND, TX 77479</span><span>Phone: 832-647-1898</span></footer></section>}

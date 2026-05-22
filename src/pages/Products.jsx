@@ -1,4 +1,0 @@
-import React from "react";
-import { Tag, Printer, ScanLine, MonitorCog, PenTool, Files, PackageCheck } from "lucide-react";
-const products=[{title:"Labels",icon:Tag},{title:"Printer",icon:Printer},{title:"Scanner",icon:ScanLine},{title:"Software",icon:MonitorCog},{title:"Label Design",icon:PenTool},{title:"Pre-Printed Labels",icon:Files},{title:"Pre-Applied Labeling",icon:PackageCheck}];
-export default function Products(){return <section className="page"><div className="pageIntro"><p className="eyebrow">PRODUCTS & SERVICES</p><h1>Labeling materials, systems, and services for modern laboratory operations.</h1><p>A focused capability overview for biopharmaceutical research laboratories and clinical research workflows.</p></div><div className="focusGrid">{products.map((item)=>{const Icon=item.icon;return <article className="focusCard" key={item.title}><Icon size={30} strokeWidth={1.7}/><span>{item.title.toUpperCase()}</span></article>})}</div></section>}
