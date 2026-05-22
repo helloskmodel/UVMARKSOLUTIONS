@@ -3,7 +3,10 @@ import "../styles/Navbar.css";
 export default function Navbar() {
   return (
     <header className="navbar">
-      <div className="logo">UVMARK</div>
+
+      <div className="logo">
+        <img src="/logo.png" alt="UVMARK" />
+      </div>
 
       <nav>
         <a href="#">HOME</a>
@@ -12,6 +15,7 @@ export default function Navbar() {
         <a href="#">CASE STUDIES</a>
         <a href="#">CONTACT</a>
       </nav>
+
     </header>
   );
 }
