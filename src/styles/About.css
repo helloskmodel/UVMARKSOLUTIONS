@@ -1,18 +1,11 @@
-.about-intro {
-  max-width: 900px;
-  margin-top: 24px;
-  line-height: 1.8;
-  color: #666666;
-}
 .about-page {
-  padding: 120px 56px;
-  background:
-    linear-gradient(180deg, #edf7ff 0%, #ffffff 100%);
+  padding: 110px 56px;
+  background: linear-gradient(180deg, #edf7ff 0%, #ffffff 48%, #f7fbff 100%);
 }
 
 .about-hero {
   max-width: 980px;
-  margin: 0 auto 80px;
+  margin: 0 auto 54px;
   text-align: center;
 }
 
@@ -26,17 +19,25 @@
 
 .about-intro {
   max-width: 860px;
-  margin: 28px auto 0;
+  margin: 24px auto 0;
   line-height: 1.8;
   color: #667085;
   font-size: 16px;
+}
+
+.about-support h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 520;
+  letter-spacing: -1px;
+  margin-bottom: 36px;
 }
 
 .about-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 28px;
-  margin-top: 40px;
+  margin-top: 0;
 }
 
 .about-card {
@@ -44,6 +45,19 @@
   border-radius: 22px;
   padding: 36px;
   box-shadow: 0 10px 30px rgba(43, 126, 201, 0.08);
+}
+
+.about-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #edf7ff 0%, #ffffff 100%);
+  color: #1f7ae0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  margin-bottom: 20px;
 }
 
 .about-card h3 {
