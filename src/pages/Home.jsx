@@ -15,8 +15,10 @@ export default function Home() {
           transfusion workflows.
         </p>
 
-        <a className="cta-button" href="#contact">
-          Contact Us
+        <a className="cta-button"
+  href="mailto:support@uvmarksolutions.com"
+>
+  Contact Us
         </a>
       </section>
 
