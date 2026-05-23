@@ -3,32 +3,47 @@ import "../styles/About.css";
 export default function About() {
   return (
     <section className="about-page">
-      <h2>About UVMARK</h2>
+      <div className="about-hero">
+        <h1>Built Around Laboratory Workflow Needs</h1>
 
-      <p className="about-intro">
-        UVMARK supports modern biopharmaceutical, clinical,
-        and laboratory environments with application-focused
-        labeling and identification solutions.
-      </p>
+        <p className="about-intro">
+          UVMARK works closely with biopharmaceutical and clinical laboratory
+          teams to develop flexible identification workflows supported by
+          advanced labeling materials, application expertise, and coordinated
+          operational support.
+        </p>
+      </div>
 
       <div className="about-grid">
-
         <div className="about-card">
-          <h3>Collaborative Solution Development</h3>
+          <h3>Close Customer Collaboration</h3>
+
+          <p>
+            We work closely with laboratory and operational teams to understand
+            workflow requirements, environmental conditions, and evolving
+            identification needs.
+          </p>
         </div>
 
         <div className="about-card">
           <h3>Advanced Label Materials</h3>
+
+          <p>
+            We collaborate with leading material and technology partners to
+            support demanding laboratory, clinical, and automation-ready
+            applications.
+          </p>
         </div>
 
         <div className="about-card">
-          <h3>Customer-Centered Agile Support</h3>
-        </div>
+          <h3>Workflow-Focused Coordination</h3>
 
-        <div className="about-card">
-          <h3>Workflow-Focused Execution</h3>
+          <p>
+            Cross-functional coordination across technical support, production,
+            logistics, and customer service helps maintain responsive project
+            execution and communication visibility.
+          </p>
         </div>
-
       </div>
     </section>
   );
