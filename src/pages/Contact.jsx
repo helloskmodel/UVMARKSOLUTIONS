@@ -12,7 +12,7 @@ export default function Contact() {
       </p>
 
       <div className="locations">
-        Houston · New York · Vancouver · Singapore · Thailand · Vietnam
+        Houston · New York · Vancouver 
       </div>
 
       <form className="contact-form">
