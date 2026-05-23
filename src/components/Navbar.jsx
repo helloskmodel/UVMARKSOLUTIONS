@@ -17,8 +17,3 @@ export default function Navbar() {
     </header>
   );
 }
-.logo img {
-  height: 34px;
-  width: auto;
-  display: block;
-}
