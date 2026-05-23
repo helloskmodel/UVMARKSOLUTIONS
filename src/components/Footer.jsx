@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <p>
-        Houston · New York · Vancouver · Singapore · Thailand · Vietnam
+        Houston · New York · Vancouver 
       </p>
     </footer>
   );
