@@ -15,6 +15,7 @@
   color: #111111;
 }
 .logo img {
+  margin-top: -8px;
   height: 55px;
   width: auto;
   display: block;
