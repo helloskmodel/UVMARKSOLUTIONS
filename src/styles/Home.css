@@ -116,3 +116,141 @@ cta-button {
   line-height: 1.8;
   font-size: 18px;
 }
+.focus-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.focus-icon {
+  width: 42px;
+  height: 42px;
+  display: inline-block;
+  position: relative;
+  color: #1f7ae0;
+}
+
+/* Labels */
+.labels-icon::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 22px;
+  border: 2px solid currentColor;
+  border-radius: 8px;
+  left: 5px;
+  top: 10px;
+}
+
+.labels-icon::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: currentColor;
+  left: 12px;
+  top: 17px;
+}
+
+/* Printer */
+.printer-icon::before {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 22px;
+  border: 2px solid currentColor;
+  border-radius: 8px;
+  left: 4px;
+  top: 12px;
+}
+
+.printer-icon::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 4px;
+  background: currentColor;
+  border-radius: 99px;
+  left: 11px;
+  top: 7px;
+}
+
+/* Software */
+.software-icon::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 2px solid currentColor;
+  border-radius: 10px;
+  left: 5px;
+  top: 5px;
+}
+
+.software-icon::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: currentColor;
+  border-radius: 4px;
+  left: 15px;
+  top: 15px;
+}
+
+/* Design */
+.design-icon::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 6px;
+  background: currentColor;
+  border-radius: 99px;
+  transform: rotate(-35deg);
+  left: 6px;
+  top: 18px;
+}
+
+/* Preprint */
+.preprint-icon::before {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 24px;
+  border: 2px solid currentColor;
+  border-radius: 8px;
+  left: 4px;
+  top: 9px;
+  background: repeating-linear-gradient(
+    to bottom,
+    currentColor 0,
+    currentColor 2px,
+    transparent 2px,
+    transparent 6px
+  );
+}
+
+/* Labware */
+.labware-icon::before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 30px;
+  border-radius: 6px;
+  background: currentColor;
+  left: 10px;
+  top: 6px;
+}
+
+.labware-icon::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 30px;
+  border-radius: 6px;
+  background: #39a4ff;
+  left: 24px;
+  top: 6px;
+}
