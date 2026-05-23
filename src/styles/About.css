@@ -15,6 +15,7 @@
   letter-spacing: -1.2px;
   font-weight: 520;
   color: #111111;
+   margin-bottom: 12px;
 }
 
 .about-intro {
@@ -23,6 +24,7 @@
   line-height: 1.8;
   color: #667085;
   font-size: 16px;
+   margin-bottom: 12px;
 }
 
 .about-support h2 {
