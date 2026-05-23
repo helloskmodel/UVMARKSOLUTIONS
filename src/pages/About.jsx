@@ -14,7 +14,7 @@ export default function About() {
       </section>
 
       <section className="about-support">
-        <h2>How We Support Our Customers</h2>
+        <h2>How We Support Our Customers? </h2>
 
         <div className="about-grid">
           <div className="about-card">
