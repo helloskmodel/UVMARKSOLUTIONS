@@ -14,3 +14,8 @@
   text-decoration: none;
   color: #111111;
 }
+.logo img {
+  height: 34px;
+  width: auto;
+  display: block;
+}
