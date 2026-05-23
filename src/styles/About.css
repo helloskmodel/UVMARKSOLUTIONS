@@ -7,7 +7,7 @@
 .about-hero {
   text-align: center;
 
-  padding: 120px 24px 90px;
+  padding: 130px 24px 90px;
 
   background: linear-gradient(180deg, #edf7ff 0%, #f7fbff 45%, #ffffff 100%); 
    
@@ -40,7 +40,7 @@
 /* HOW WE SUPPORT */
 
 .about-support {
-  padding: 90px 24px 90px;
+  padding: 60px 24px 90px;
 
   background: #f7fbff;
 }
