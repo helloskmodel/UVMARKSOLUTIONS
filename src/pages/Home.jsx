@@ -59,13 +59,35 @@ export default function Home() {
         <h2>What We Focus?</h2>
 
         <div className="focus-grid">
-          <div className="focus-item">Labels</div>
-          <div className="focus-item">Printers & Scanners</div>
-          <div className="focus-item">Software</div>
-          <div className="focus-item">Label Design</div>
-          <div className="focus-item">Pre-Printed Labels</div>
-          <div className="focus-item">Pre-Labelling Labware</div>
-        </div>
+  <div className="focus-item">
+    <span className="focus-icon labels-icon"></span>
+    <span>Labels</span>
+  </div>
+
+  <div className="focus-item">
+    <span className="focus-icon printer-icon"></span>
+    <span>Printers & Scanners</span>
+  </div>
+
+  <div className="focus-item">
+    <span className="focus-icon software-icon"></span>
+    <span>Software</span>
+  </div>
+
+  <div className="focus-item">
+    <span className="focus-icon design-icon"></span>
+    <span>Label Design</span>
+  </div>
+
+  <div className="focus-item">
+    <span className="focus-icon preprint-icon"></span>
+    <span>Pre-Printed Labels</span>
+  </div>
+
+  <div className="focus-item">
+    <span className="focus-icon labware-icon"></span>
+    <span>Pre-Labelling Labware</span>
+  </div>
       </section>
 
       <section className="cta-section" id="contact">
