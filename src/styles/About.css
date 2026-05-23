@@ -1,46 +1,62 @@
 .about-page {
-  padding: 120px 24px 90px;
-  background:  #ffffff; 
+  background: #ffffff;
 }
 
-/* HERO */
+/* HERO SECTION */
 
 .about-hero {
-  max-width: 980px;
-  margin: 0 auto 12px;
   text-align: center;
-  background: linear-gradient(180deg, #edf7ff 0%, #f7fbff 45%, #ffffff 100%); 
+
+  padding: 120px 24px 90px;
+
+  background:
+    linear-gradient(
+      180deg,
+      #edf7ff 0%,
+      #f7fbff 45%,
+      #ffffff 100%
+    );
 }
 
 .about-hero h1 {
+  max-width: 900px;
+
+  margin: 0 auto 10px;
+
   font-size: 35px;
   line-height: 1.15;
   letter-spacing: -1.2px;
   font-weight: 520;
+
   color: #111111;
-  margin-bottom: 10px;
 }
 
 .about-intro {
   max-width: 860px;
+
   margin: 10px auto 0;
+
   line-height: 1.8;
-  color: #667085;
   font-size: 20px;
+
+  color: #667085;
 }
 
 /* HOW WE WORK */
 
 .about-support {
-  margin-top: 90px;   /* ← 控制和上面的距离 */
+  padding: 100px 24px 110px;
+
+  background: #f7fbff;
 }
- background: #f7fbff;
-}
+
 .about-support h2 {
   text-align: center;
+
   font-size: 24px;
   font-weight: 520;
   letter-spacing: -1px;
+
   margin-bottom: 15px;
 }
 
@@ -48,41 +64,62 @@
 
 .about-grid {
   display: grid;
+
   grid-template-columns: repeat(3, 1fr);
+
   gap: 28px;
-  margin-top: 0;
+
+  margin-top: 40px;
 }
 
 .about-card {
-  background: #f7fbff;
+  background: #ffffff;
+
   border-radius: 22px;
+
   padding: 36px;
+
   box-shadow: 0 10px 30px rgba(43, 126, 201, 0.08);
 }
 
 .about-icon {
   width: 64px;
   height: 64px;
+
   border-radius: 32px;
-  background: linear-gradient(135deg, #edf7ff 0%, #ffffff 100%);
+
+  background:
+    linear-gradient(
+      135deg,
+      #edf7ff 0%,
+      #ffffff 100%
+    );
+
   color: #1f7ae0;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   font-size: 35px;
+
   margin-bottom: 20px;
 }
 
 .about-card h3 {
   margin-bottom: 16px;
+
   font-size: 20px;
   font-weight: 520;
+
   color: #111111;
 }
 
 .about-card p {
   color: #667085;
+
   line-height: 1.8;
+
   font-size: 16px;
 }
 
@@ -90,15 +127,19 @@
 
 @media (max-width: 900px) {
 
+  .about-hero {
+    padding: 100px 24px 70px;
+  }
+
   .about-grid {
     grid-template-columns: 1fr;
   }
 
-  .about-page {
-    padding: 90px 24px;
+  .about-support {
+    padding: 80px 24px 90px;
   }
 
-  .about-support {
-    margin-top: 70px;
+  .about-intro {
+    font-size: 18px;
   }
 }
