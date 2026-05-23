@@ -14,7 +14,7 @@ export default function CaseStudies() {
   return (
     <main className="case-page">
       <section className="case-hero">
-        <p className="case-label">Best Practice Sharing</p>
+        
 
         <h1>Turning Workflow Challenges Into Reliable Solutions</h1>
 
