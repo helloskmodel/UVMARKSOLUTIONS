@@ -1,7 +1,7 @@
 import "../styles/About.css";
 
 export default function About() {
-  return (
+  return (<div className="about-page">
     <main className="about-page">
       <section className="about-hero">
         <h1>About UVMARK</h1>
@@ -49,5 +49,8 @@ export default function About() {
         </div>
       </section>
     </main>
+  );
+}
+  </div>
   );
 }
