@@ -48,9 +48,9 @@
 }
 
 .about-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 16px;
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
   background: linear-gradient(135deg, #edf7ff 0%, #ffffff 100%);
   color: #1f7ae0;
   display: flex;
