@@ -7,14 +7,14 @@
 .about-hero {
   text-align: center;
 
-  padding: 120px 24px 90px;
+  padding: 80px 24px 65px;
 
   background:
     linear-gradient(
       180deg,
       #edf7ff 0%,
-      #f7fbff 45%,
-      #ffffff 100%
+      #f3f9ff 55%,
+      #f7fbff 100%
     );
 }
 
@@ -42,12 +42,12 @@
   color: #667085;
 }
 
-/* HOW WE WORK */
+/* HOW WE SUPPORT */
 
 .about-support {
-  padding: 100px 24px 110px;
+  padding: 70px 24px 90px;
 
-  background: #f7fbff;
+  background: #ffffff;
 }
 
 .about-support h2 {
@@ -73,7 +73,7 @@
 }
 
 .about-card {
-  background: #ffffff;
+  background: #f7fbff;
 
   border-radius: 22px;
 
@@ -128,7 +128,7 @@
 @media (max-width: 900px) {
 
   .about-hero {
-    padding: 100px 24px 70px;
+    padding: 70px 24px 55px;
   }
 
   .about-grid {
@@ -136,7 +136,7 @@
   }
 
   .about-support {
-    padding: 80px 24px 90px;
+    padding: 60px 24px 70px;
   }
 
   .about-intro {
