@@ -5,10 +5,9 @@
 
 .about-hero {
   max-width: 980px;
-  margin: 0 auto 28px;
+  margin: 0 auto 12px;
   text-align: center;
 }
-
 .about-hero h1 {
   font-size: 35px;
   line-height: 1.15;
@@ -20,19 +19,18 @@
 
 .about-intro {
   max-width: 860px;
-  margin: 24px auto 0;
+  margin: 12px auto 0;
   line-height: 1.8;
   color: #667085;
   font-size: 16px;
-   margin-bottom: 12px;
-}
+   }
 
 .about-support h2 {
   text-align: center;
   font-size: 24px;
   font-weight: 520;
   letter-spacing: -1px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .about-grid {
