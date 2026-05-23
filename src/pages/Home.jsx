@@ -88,6 +88,7 @@ export default function Home() {
     <span className="focus-icon labware-icon"></span>
     <span>Pre-Labelling Labware</span>
   </div>
+          </div>
       </section>
 
       <section className="cta-section" id="contact">
