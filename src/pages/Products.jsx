@@ -72,7 +72,7 @@ export default function Products() {
   return (
     <main className="products-page">
       <section className="products-hero">
-        <p className="products-eyebrow">Products & Services</p>
+        
 
         <h1>Durable Labels. Reliable Performance.</h1>
 
