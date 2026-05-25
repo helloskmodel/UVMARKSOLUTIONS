@@ -1,3 +1,4 @@
+import React from "react";
 import "../styles/PrivacyPolicy.css";
 
 export default function PrivacyPolicy() {
