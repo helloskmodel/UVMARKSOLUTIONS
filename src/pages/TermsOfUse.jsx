@@ -1,3 +1,4 @@
+import React from "react";
 import "../styles/TermsOfUse.css";
 
 export default function TermsOfUse() {
