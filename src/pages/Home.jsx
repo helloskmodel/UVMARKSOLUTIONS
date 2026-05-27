@@ -15,12 +15,13 @@ export default function Home() {
           Supporting biopharmaceutical research, clinical diagnostics, and
           transfusion workflows.
         </p>
-
-        <a className="cta-button"
+<a
+  className="cta-button"
   href="/contact"
 >
   Contact Us
-        </a>
+</a>
+       
       </section>
 
       <section className="why-section">
@@ -100,10 +101,13 @@ export default function Home() {
           coordination, and application-focused solutions for biopharmaceutical
           and clinical environments.
         </p>
-
-        <a className="cta-button" href="/contact"
-          Contact Us
-        </a>
+<a
+  className="cta-button"
+  href="/contact"
+>
+  Contact Us
+</a>
+        
       </section>
     </main>
   );
