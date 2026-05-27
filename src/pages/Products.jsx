@@ -163,7 +163,7 @@ export default function Products() {
       <section className="products-cta">
         <h2>Need Help? Contact Our Labeling Specialists.</h2>
 
-        <a href="mailto:support@uvmarksolution.com" className="cta-button">
+        <a href="/contact" className="cta-button">
           Contact Us
         </a>
       </section>
