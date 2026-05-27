@@ -2,79 +2,13 @@ import React from "react";
 import "../styles/Contact.css";
 
 export default function Contact() {
-
-  const handleSubmit = async (e) => {
-
-    e.preventDefault();
-
-    const form = e.target;
-
-    const formData = new FormData(form);
-
-    formData.append(
-      "access_key",
-      "b27659f3-f2a3-4011-b1bb-82f847da76da"
-    );
-
-    const submitBtn =
-      form.querySelector("button");
-
-    const originalText =
-      submitBtn.textContent;
-
-    submitBtn.textContent = "Sending...";
-    submitBtn.disabled = true;
-
-    try {
-
-      const response = await fetch(
-        "https://api.web3forms.com/submit",
-        {
-          method: "POST",
-          body: formData,
-        }
-      );
-
-      const data = await response.json();
-
-      if (response.ok) {
-
-        alert(
-          "Success! Your message has been sent."
-        );
-
-        form.reset();
-
-      } else {
-
-        alert("Error: " + data.message);
-
-      }
-
-    } catch (error) {
-
-      alert(
-        "Something went wrong. Please try again."
-      );
-
-    } finally {
-
-      submitBtn.textContent =
-        originalText;
-
-      submitBtn.disabled = false;
-    }
-  };
-
   return (
     <section className="contact-page">
-
       <h2>Let's Get Labelling.</h2>
 
       <p>
-        Contact our team to discuss laboratory
-        identification, workflow coordination,
-        and application-focused solutions.
+        Contact our team to discuss laboratory identification,
+        workflow coordination, and application-focused solutions.
       </p>
 
       <div className="locations">
@@ -83,8 +17,20 @@ export default function Contact() {
 
       <form
         className="contact-form"
-        onSubmit={handleSubmit}
+        action="https://api.web3forms.com/submit"
+        method="POST"
       >
+        <input
+          type="hidden"
+          name="access_key"
+          value="b27659f3-f2a3-4011-b1bb-82f847da76da"
+        />
+
+        <input
+          type="hidden"
+          name="subject"
+          value="New inquiry from UVMARK website"
+        />
 
         <input
           type="text"
@@ -108,9 +54,7 @@ export default function Contact() {
         <button type="submit">
           Contact Us
         </button>
-
       </form>
-
     </section>
   );
 }
