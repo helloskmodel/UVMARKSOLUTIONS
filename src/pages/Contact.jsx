@@ -13,17 +13,34 @@ export default function Contact() {
       </p>
 
       <div className="locations">
-        Houston · New York · Vancouver 
+        Houston · New York · Vancouver
       </div>
 
-      <form className="contact-form">
-        <input type="text" placeholder="Your company" />
-        <input type="email" placeholder="name@company.com" />
+      <form
+        className="contact-form"
+        action="https://formspree.io/f/xxxxxx"
+        method="POST"
+      >
+        <input
+          type="text"
+          name="company"
+          placeholder="Your company"
+        />
+
+        <input
+          type="email"
+          name="email"
+          placeholder="name@company.com"
+        />
+
         <textarea
+          name="message"
           placeholder="Tell us about your application, workflow, or identification requirements."
         ></textarea>
 
-        <button type="submit">Contact Us</button>
+        <button type="submit">
+          Contact Us
+        </button>
       </form>
 
     </section>
