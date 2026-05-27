@@ -17,7 +17,7 @@ export default function Home() {
         </p>
 
         <a className="cta-button"
-  href="mailto:support@uvmarksolutions.com"
+  href="/contact"
 >
   Contact Us
         </a>
@@ -101,7 +101,7 @@ export default function Home() {
           and clinical environments.
         </p>
 
-        <a className="cta-button" href="mailto:support@uvmarksolutions.com">
+        <a className="cta-button" href="/contact"
           Contact Us
         </a>
       </section>
