@@ -1,8 +1,17 @@
 .hero-section {
   text-align: center;
   padding: 120px 24px 90px;
+
   background:
-   linear-gradient(180deg, #edf7ff 0%, #f7fbff 45%, #ffffff 100%); 
+    linear-gradient(
+      rgba(248, 251, 255, 0.82),
+      rgba(248, 251, 255, 0.92)
+    ),
+    url("/hero-banner.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-section h1 {
