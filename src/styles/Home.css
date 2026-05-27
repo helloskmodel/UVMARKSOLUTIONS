@@ -4,8 +4,8 @@
 
   background:
     linear-gradient(
-      rgba(248, 251, 255, 0.58),
-      rgba(248, 251, 255, 0.72)
+      rgba(255, 255, 255, 0.12),
+      rgba(255, 255, 255, 0.28)
     ),
     url("/hero-banner.png");
 
